@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Alert } from 'react-native'
-import { login } from '../../common/models/repositories/auth.repository'
+import { login } from '../../repositories/auth.repository'
 
 const useLoginViewModel = () => {
   const [email, setEmail] = useState<string>('')
