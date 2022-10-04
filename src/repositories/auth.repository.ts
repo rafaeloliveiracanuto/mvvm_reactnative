@@ -1,4 +1,4 @@
-import { UserModel } from '../user.model'
+import { UserModel } from '../common/models/user.model'
 import client from './client'
 
 export interface loginDTO {
